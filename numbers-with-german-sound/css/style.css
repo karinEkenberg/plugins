@@ -1,0 +1,22 @@
+.num-pronounced-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.num-pronounced-item {
+  margin: 10px;
+}
+
+.num-pronounced-item img {
+  cursor: pointer;
+  max-width: 100px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.num-pronounced-item img:hover {
+  transform: scale(1.1);
+}
